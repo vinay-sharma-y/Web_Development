@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Tables in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <table>
+            <caption>My daily Schedule.</caption>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Code</th>
+                <td>
+                    <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am </time>
+                </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Eating</th>
+                <td>
+                    <time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Study</th>
+                <td>
+                    <time datetime="12:00">12 pm</time>-<time datetime="17:00">5 pm </time>
+                </td>
+                <td>Study for other course</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free time</td>
+            </tr>
+            <tr>
+                <th scope="row"it >Night</th>
+                <td>Sleep</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        And that's what i do.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

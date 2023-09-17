@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML.</title>
+</head>
+<body>
+    <h1>Enter your Details</h1>
+    <form action="">
+        <!-- <p>Your Name Here:</p> -->
+        <label for="">First Name:</label>
+        <input value="John" type="text">
+        <br>
+        <label for="">First Name:</label>
+        <input value="Doe" type="text">
+        <br>
+        <label for="">Age:</label>
+        <input type="number">
+        <br>
+        <label for="">Date of Birth:</label>
+        <input type="date">
+        <br>
+        <label for="">E-mail:</label>
+        <input type="email">
+        <br>
+        <label for="email">Password::</label>
+        <input id="email" type="password">
+        <br>
+        <p>Enter your tshirt size:</p>
+        <input id="small" name="tshirtSize" value="small" type="radio">
+        <label for="small">Small</label>
+        <br>
+        <input id="medium" name="tshirtSize" value="medium" type="radio">
+        <label for="medium">Medium</label>
+        <br>
+        <input id="large" name="tshirtSize" value="large" type="radio">
+        <label for="large">Large</label>
+        <br>
+        <label for="color">Your Favoite Color:</label>
+        <input type="color">
+        <br>
+        <input type="reset">
+        <input id="submit" type="submit">
+        <br>
+        <label for="cars">Choose a Car</label>
+        <select name="car" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+            <option value="Buggati">Buggati</option>
+        </select>
+        <label for="about">Tell Us About Yourself:</label>
+        <textarea name="aboutYourself" id="about" col="30"rows="10"></textarea>
+
+    </form>
+</body>
+</html>
